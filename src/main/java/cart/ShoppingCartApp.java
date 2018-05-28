@@ -1,12 +1,19 @@
 package cart;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ShoppingCartApp {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		Cart cart = new Cart();
+		
+		ArrayList<Item>shoppingCart = new ArrayList<Item>();
+		shoppingCart.addItem(converse);
+		shoppingCart.addItem(sketchers);
+		shoppingCart.addItem(shirt);
+		shoppingCart.addItem(jeans);
+		
 		
 		System.out.println("Welcome to Lauren's Online Shop");
 		

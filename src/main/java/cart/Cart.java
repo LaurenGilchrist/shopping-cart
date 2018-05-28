@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Cart {
 
-	List<Item> items = new ArrayList<>();
+	List<Item> items = new ArrayList<Item>();
+	
 	
 	public void addItem(Item item) {
 		items.add(item);
@@ -35,4 +36,8 @@ public class Cart {
 		
 	}
 	}
-}
+
+	
+		
+	}
+
