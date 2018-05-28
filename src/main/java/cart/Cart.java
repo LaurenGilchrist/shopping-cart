@@ -28,4 +28,11 @@ public class Cart {
 		}
 	}
 
+	public void showCartItems() {
+		for (Item item : items) {
+		System.out.println("Item: "+ item.getName() + "Price: " + item.getPrice() + "Quantity: " + item.getQuantity());
+		
+		
+	}
+	}
 }
